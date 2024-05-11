@@ -154,7 +154,7 @@ $max_answers = $stmt->fetch(PDO::FETCH_ASSOC)['max_answers'];
             <a href='http://localhost/Education/Login&Questions/Questions/1-index.php' class='OtherSideButton'>Ask a question</aR5>
             <ul class='otherSideList'>
                 <!-- <li class='Status'>Stats</li> -->
-                <li><a href="http://localhost/EDU-main/EDU-main/Education/Login&Questions/Questions/answer.php">Stats </a></li>
+                <li><a href="http://localhost/Education/Login&Questions/Questions/answer.php">Stats </a></li>
                 <hr>
                 <li> Questions:(<?php echo $questions_count['num_questions']; ?>)</li>
                 <li>Answers:(<?php echo $max_answers; ?>)</li>

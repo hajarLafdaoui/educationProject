@@ -47,7 +47,7 @@ if (isset($_SESSION['content'])) {
             <form action='http://localhost/Education/Login&Questions/Questions/allQuestions.php' method='post'>
                 <button class='Delete' type='submit'>See questions</button>
             </form>  -->
-            <form action='http://localhost/EDU-main/EDU-main/Education/Html/index.php' method='post'>
+            <form action='http://localhost/Education/Html/index.php' method='post'>
                 <button class='Delete' type='submit'>Home</button>
             </form> 
         </div>

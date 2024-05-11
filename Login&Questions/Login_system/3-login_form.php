@@ -19,11 +19,11 @@ if (isset($_POST['submit'])) {
             if (password_verify($pass, $row['password'])) {
                 if ($row['user_type'] == 'admin') {
                     $_SESSION['admin_name'] = $row['name'];
-                    header('location: http://localhost/EDU-main/EDU-main/Education/Login&Questions/Login_system/4-admin_page.php');
+                    header('location: http://localhost/Education/Login&Questions/Login_system/4-admin_page.php');
                     exit;
                 } elseif ($row['user_type'] == 'user') {
                     $_SESSION['user_name'] = $row['name'];
-                    header('location: http://localhost/EDU-main/EDU-main/Education/Login&Questions/Login_system/5-user_page.php');
+                    header('location: http://localhost/Education/Login&Questions/Login_system/5-user_page.php');
                     exit;
                 }
             } else {

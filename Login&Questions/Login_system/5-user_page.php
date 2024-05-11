@@ -97,7 +97,7 @@ if(!isset($_SESSION['user_name'])){
       <p>this is an user page</p>
       <a href="3-login_form.php" class="btn">login</a>
       <a href="6-logout.php" class="btn">logout</a>
-      <a href="http://localhost/EDU-main/EDU-main/Education/Html/index.php" class="btn">Home</a>
+      <a href="http://localhost/Education/Html/index.php" class="btn">Home</a>
    </div>
 
 </div>

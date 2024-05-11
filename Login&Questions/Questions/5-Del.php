@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(':name', $name);
     $stmt->execute();
     
-    header("Location:http://localhost/EDU-main/EDU-main/Education/Html/index.php"); 
+    header("Location:http://localhost/Education/Html/index.php"); 
     exit();
 } else {
     echo "Error: No form submission detected";

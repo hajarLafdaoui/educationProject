@@ -6,7 +6,7 @@ session_start();
 session_unset();
 session_destroy();
 
-header('location: http://localhost/EDU-main/EDU-main/Education/Html/index.php');
+header('location: http://localhost/Education/Html/index.php');
 
 ?>
 <!-- session_unset() It does not destroy the session itself, but only clears the data stored in the session variables. After calling session_unset(), the session variables are effectively empty, but the session itself still exists. -->
