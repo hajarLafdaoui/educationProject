@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+ul{
+    list-style: none !important;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+/* PARTS */
+.side{
+    /* background-color: #d57a7a; */
+    padding: 0;
+    margin: 0;
+}
+.center{
+    /* background-color: #b2c649; */
+
+}
+.otherSide{
+    /* background-color: #7164d3; */
+}
+
+/* SIDE */
+.dropdown button{
+    outline: none;
+    border: none;
+} 
+.firstList li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 14px 30px 10px 0px; 
+}
+.marginRight{
+    margin-right: 15px;
+}
+
+/* CONTAINER */
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    margin-bottom: 35px;
+}
+.SearchInput {
+    width: 600px; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 0px; 
+    background-color: #f2f2f2;
+    font-size: 14px; 
+    color: #333; 
+}
+.SearchInput::placeholder {
+    color: #999;
+}
+.SearchInput:focus {
+    outline: none; 
+    border-color: #3498db; 
+}
+.Search{
+    border-radius:0px;
+    font-size:15px; 
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 25px;
+    border: none;
+    background-color: #3498db;
+    margin-left: 20px;
+}
+
+.question{
+    border-bottom: #000 1px solid;
+}
+.question .name{
+    color: #3498db;
+    border:none !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userImg{
+    width: 38px;
+    height: 39px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.questionImg{
+    margin-top: 14px;
+    display: flex;
+    align-items: START;
+    justify-content: start;
+}
+.question .date{
+    margin-left: 30px;
+    background-color: #3498db;
+}
+
+.Answer,.Close,.sendAnswer,.send{
+    border-radius:0px;
+    font-size:15px; 
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 25px;
+    border: none;
+    background-color: #3498db;
+}
+.answerInput{
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 0px; 
+    font-size: 14px; 
+    color: #333; 
+}
+.commentbox {
+    margin-left: 58px;
+}
+
+/* input&textarea */
+.nameContent {
+    width: calc(100% - 200px); 
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-style: italic;
+    border: none;
+}
+ .name{
+    border:none !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* OTHERSIDE */
+.OtherSideButton{
+    border-radius:0px;
+    font-size:15px; 
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 25px;
+    border: none;
+    background-color: #3498db !important;
+    margin-top: 14px;
+    margin-bottom: 35px;
+}
+.otherSideList{
+    border: #999 1px solid;
+    padding: 10px;
+}
+.Status{
+    font-size: 15px;
+    font-weight: 600;
+    color: #3498db;
+}

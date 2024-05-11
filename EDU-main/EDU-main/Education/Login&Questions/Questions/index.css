@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    box-shadow: 0 0 5px #000;
+    margin: 150px auto;
+    max-width: 800px; 
+    padding: 0 20px;
+}
+
+/* titles */
+.titles h1 {
+    text-align: center;
+    color:#222; font-size:30px; font-weight:400;
+    text-transform: uppercase;
+    word-spacing: 1px; letter-spacing:2px; color:#000;
+}
+.titles h1 span {
+    line-height:2em; padding-bottom:15px;
+    text-transform: none;
+    font-size:.7em;
+    font-weight: normal;
+    font-style: italic; font-family: "Playfair Display","Bookman",serif;
+    color:#999; letter-spacing:-0.005em; word-spacing:1px;
+    letter-spacing:none;
+}
+/*  */
+
+.commentbox {
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px;
+    margin-bottom:30px;
+    border: none !important;
+    /* margin-top:20px; */  
+    padding-top: 22px;
+    padding-left: 22px;
+    justify-content:center;
+    align-items: start;
+}
+
+/* img */
+.commentbox > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+/*  */
+
+/* input&textarea */
+.nameContent {
+    width: calc(100% - 200px); 
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-style: italic;
+    border: none;
+}
+ .name{
+    border:none !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.form-group{
+    margin-right:50px
+}
+/*  */
+
+/* button */
+#save,.Edit,.Delete{
+    border-radius:70px;
+    padding:10px 35px;
+    font-size:15px; 
+    margin-top:22px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 18px;
+    border: none;
+    color: #fff;
+    background-color: #3498db;
+}
+/*  */
+.all{
+    margin-top: 10px;
+}
+
+/* form */
+.forms{
+    display:flex !important;
+}
+/* edit button */
+.forms .Edit{
+    /* margin-right: 60px; */
+    /* padding: 8px 23px; */
+}
